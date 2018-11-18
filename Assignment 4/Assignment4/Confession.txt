@@ -1,0 +1,5 @@
+Problem: For the gradeAllStudents method, I believe that if the answers are a 100% correct, the array will display 99.999 continuing. This is because, or I think, I am dividing 1 by the value of the array, and multiply by a 100, and then add that each time. There is a slight discrepancy in addition, and that is why it may not be a 100 percent. I think that is the only instance it is performing like this.
+
+Possible solutions: I did not want to use a Math.round() method, as it would reduce accuracy for every instance, which could test very wrong in most situations. 
+
+Hence, I hope I do not get marks cut for this slight decimal discrepancy. 
